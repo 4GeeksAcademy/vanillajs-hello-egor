@@ -17,7 +17,7 @@ window.onload = function () {
 
   // generate a random number based on array length
   const generateRandomNumber = (arrLength) => {
-    return Math.floor(Math.random() * arrLength - 1) + 1;
+    return Math.floor(Math.random() * arrLength);
   };
 
   // generate excuse function
